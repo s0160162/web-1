@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Задание 1</title>
+  </head>
+  
+  <body>
+    <h1>Задание 1</h1>
+<ol>
+  <li><a href ="http://example.com">Абсолютная </a></li>
+  <li><a href ="https://example.com">Абсолютная в https</a></li>
+  <li><a href ="ftp://stonehub.ru/FAQ/manual.txt">Файл FTP без авторизации</a></li>
+  <li><a href ="ftp://antonina:antonina2002@stonehub.ru/questions/help.txt">Файл FTP с авторизацией</a></li>
+  <li><a href ="https://ru.wikipedia.org/wiki/Заглавная_страница#top">Фрагмент сайта</a></li>
+  <li><a href =“#top”>Фрагмент этой страницы</a></li>
+  <li><a href ="https://moodle.kubsu.ru/course/view.php?id=780">Два URL</a></li>
+ <li><a href="https://moodle.kubsu.ru/">Список </a></li>
+      <li>
+        <nav> 
+            <ul> 
+                <li><a href="https://moodle.kubsu.ru/course/index.php?categoryid=4"> Title </a></li>
+                <li><a href="https://moodle.kubsu.ru/course/index.php?categoryid=5"> Title </a></li>
+            </ul> 
+        </nav>  
+      </li>
+  <li><a>Ссылка без href</a></li>
+  <li><a href ="">Пустойhref</a></li>
+  <li><a href ="https://moodle.kubsu.ru/" rel=nofollow>Запрещенный переход</a></l>
+  <li><!--noindex--><a href ="https://moodle.kubsu.ru/">Запрещенная индексация</a></l>
+  <li><a>Контекстная</a></li>
+  <li><a href ="img.jpg">Изображение</a></li>
+  
+  
+    <li><a href="about/files.html">Страница в каталоге about</a></li>
+      <li><a href="../index.html">Страница в каталоге уровнем выше</a></li>
+      <li><a href="../../index.html">Страница в каталоге двумя уровнями выше</a></li>
+      <li><a href="">Сокращенная на главную</a> </li>
+      <li><a href="/abouut/page.html">Сокращенная на внутреннюю</a></li>
+
+  
+</ol>
+    
+       <label>
+        Имя:<br />
+        <input name="field-name-1"
+          value="Введите имя" />
+      </label><br />
+    
+       <label>
+       Адрес электронной почты:<br />
+        <input name="field-name-1"
+          value="email"
+               type="email" />
+      </label><br />
+    
+       <label>
+        Дата рождения:<br />
+        <input name="field-name-1"
+          value="2021-09-13"
+               type="date" />
+      </label><br />
+    
+    Пол?:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+       Женский</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Мужской</label><br />
+    
+    Колличество конечностей?:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        2</label><br />
+     <label><input type="radio"
+        name="radio-group-1" value="Значение3" />
+        3</label><br />
+          <label><input type="radio"
+        name="radio-group-1" value="Значение5" />
+       Более</label><br />
+     
+           
+     <label>
+        Сверхспособности
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитация</option>
+        </select>
+      </label><br />
+    
+    <label>
+        Биография:<br />
+        <textarea name="field-name-2">О себе</textarea>
+      </label><br />
+    
+    Чекбокс<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+       С контрактом ознакомлен</label><br />
+    
+   
+      <input type="submit" value="Отправить" />
+    </form>
+    
+    <a id=“top”>
+    
+  </body>
+
